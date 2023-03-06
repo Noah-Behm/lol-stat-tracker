@@ -1,0 +1,217 @@
+.background {
+    /*background-color: rgba(0,0,0,.5);*/
+    background-color: #557a95;
+    /*color: #fff;*/
+    color: #c38d9e;
+    min-height:100vh
+}
+
+.head_line {
+    background-color: white;
+    padding-bottom: 1vh;
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+.head_text {
+    color: black;
+    text-align: left;
+    padding-left: 5vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup_box {
+    border-style: solid;
+    border-width: 2px;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50vh;
+    background-color: rgb(221, 221, 221);
+    border-color: black;
+    margin-top: 5vh;
+    box-shadow: 5px 10px;
+    min-width: 450px;
+    min-height: 200px;
+    margin-bottom: 5vh;
+}
+
+.login_box {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    height: 25vh;
+    margin-bottom: 20px;
+    margin-top: 5vh;
+    align-items: center;
+    min-width: 50vh;
+    min-width: 450px;
+    min-height: 200px;
+    background-color: rgb(221, 221, 221);
+    border-color: black;
+    box-shadow: 5px 10px;
+}
+
+.submit_button {
+    width: 100px;
+}
+
+.form_input {
+    max-width: 400px;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.3s all;
+    height: 32px;
+}
+
+.box_header {
+    max-width: 200px;
+    color: black;
+}
+
+.wrapper {
+    margin-bottom: 10px;
+}
+
+.summoner_submit {
+    width: 200px;
+}
+
+.matches_submit {
+    width: 200px;
+}
+
+.wrapper_home {
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 10vh;
+}
+
+.wrapper_home_input {
+    margin-bottom: 10px;
+    text-align: left;
+    grid-column: 2;
+    margin-top: 1.5vh;
+}
+
+.home_header {
+    text-align: left;
+    width: 340px;
+}
+
+.summoner_box {
+    display: grid;
+    grid-template-columns: 350px;
+    margin-left: 10vh;
+}
+
+.foot_text {
+    margin: 0;
+    color: white;
+}
+
+.foot_line {
+    margin-top: 10vh;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+.match_container {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 3vh;
+    background-color: white;
+    box-shadow: 5px 10px;
+    min-width: 450px;
+    max-width: 700px;
+}
+
+.match_header {
+    text-align: left;
+    margin-left: 4vh;
+    font-size: 28px;
+}
+
+.match_line {
+    text-align: left;
+    font-size: 20px;
+}
+
+.stat_line {
+    text-align: left;
+    font-size: 20px;
+}
+
+.stats_header {
+    margin-left: 4vh;
+}
+
+.matches {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+}
+
+.loading {
+    text-align: center;
+    opacity: 0.7;
+    background-color: #fff;
+
+}
+  
+.home_body {
+    display: grid;
+    column-gap: 10px;
+    background-color: #557a95;
+    opacity: .8;
+    margin-top: 2vh;
+    border-top: solid;
+    border-top-width: 3px;
+    min-width: 1200px;
+    min-height: 2000px;
+}
+
+.stats {
+    margin-top: 5vh;
+    text-align: left;
+    grid-column: 2;
+    grid-row: 1;
+    border-style: solid;
+    margin-right: 10vh;
+    border-width: 3px;
+    margin-bottom: 3vh;
+    box-shadow: 5px 10px;
+    background-color: white;
+    height: 250px;
+    min-width: 450px;
+    max-width: 700px;
+}
+
+.challenges {
+    margin-top: 350px;
+    text-align: left;
+    grid-column: 2;
+    grid-row: 1;
+    border-style: solid;
+    margin-right: 10vh;
+    border-width: 3px;
+    margin-bottom: 3vh;
+    box-shadow: 5px 10px;
+    background-color: white;
+    height: 2335px;
+    min-width: 450px;
+    max-width: 700px;
+}
