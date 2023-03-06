@@ -1,9 +1,9 @@
 # lol-stat-tracker
-A League of Legends stat and challenges app
+A League of Legends stat and challenges app. This is still a work in progress, and I want to work on improving the existing functionality and adding further details and functionality. 
 
 This web-app is a personal project to learn about and gain experience in full stack web development.
 
-The technologies used to create this application are: React, JavaScript, HTML, CSS, MySQL, and Express.
+The technologies used to create this application are: React, JavaScript, HTML, CSS, MySQL, Express, and the Riot Games official API.
 
 Current Functionality:
 - Users are able to create an account on the main page and use it to log in. This login data is stored in a local MySQL database.
